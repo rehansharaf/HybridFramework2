@@ -26,19 +26,19 @@ public class VerifySuccessfulLogin extends TestBase {
 	}
 	
 	
-//	@Test
-//	public void verifySuccessLogin() {
-//		
-//		Log.startTestCase("Verify Successful Login Only");
-//		lp = new LoginPage();
-//		hp = lp.login(prop.getProperty("username"), prop.getProperty("password"));
-//		hp.verifyHomePageHeading();
-//		Assert.assertEquals(hp.verifyHomePageHeading(), "Welcome docs, upload");
-//		Log.endTestCase("Verify Successful Login Only");
-//
-//		
-//		
-//	}
+	@Test
+	public void verifySuccessLogin() {
+		
+		Log.startTestCase("Verify Successful Login Only");
+		lp = new LoginPage(driver);
+		hp = lp.login(prop.getProperty("username"), prop.getProperty("password"));
+		hp.verifyHomePageHeading();
+		Assert.assertEquals(hp.verifyHomePageHeading(), "Welcome docs, upload");
+		Log.endTestCase("Verify Successful Login Only");
+
+		
+		
+	}
 	
 	@Test(dataProvider = "credentials", dataProviderClass = DataProviders.class)
 	public void verifyLogin(String username, String password) {

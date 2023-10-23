@@ -36,7 +36,7 @@ public class HomePage {
 	
 	
 	public String verifyHomePageHeading() {
-		
+	
 		action.explicitWait(driver, dashboardText, Duration.ofSeconds(10));
 		//utils.explicitWait(driver, dashboardText, Duration.ofSeconds(10));
 		return dashboardText.getText();

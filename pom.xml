@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>HybridFramework2</groupId>
-	<artifactId>HybridFramework2</artifactId>
+	<groupId>Marina</groupId>
+	<artifactId>Marina</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HybridFramework2</name>
+	<name>Marina</name>
 	<!-- FIXME change it to the project's website -->
-	<url>https://khi.medicallienmgt.com</url>
+	<url>http://www.example.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.8.1</version>
+			<version>4.13.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.3.2</version>
+			<version>5.5.3</version>
 		</dependency>
 	</dependencies>
 	<build>

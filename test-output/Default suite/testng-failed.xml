@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.medflow.tests.VerifySuccessfulLogin">
+      <class name="com.medflow.tests.VerifySearchFilePage">
         <methods>
-          <include name="verifyLogin" invocation-numbers="0 1"/>
-          <include name="afterTest"/>
+          <include name="verifySearchFilePage_Test1"/>
           <include name="afterSuite"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.medflow.tests.VerifySuccessfulLogin -->
+      </class> <!-- com.medflow.tests.VerifySearchFilePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,6 +13,13 @@ import com.medflow.pages.LoginPage;
 import com.medflow.pages.SearchFilePage;
 import com.medflow.utils.Log;
 
+/*
+ * OOPS Major Concepts (major pillar)
+ * 1. Inheritance 
+ * 2. Abstraction 
+ * 3. Polymorphism
+ * 4. Encapsulation
+ */
 public class VerifySearchFilePage extends TestBase {
 	
 	LoginPage lp;

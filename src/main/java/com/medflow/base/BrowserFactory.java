@@ -27,9 +27,13 @@ public class BrowserFactory {
 	public void setDriver(String browserName) {
 		
 		if (browserName.equalsIgnoreCase("Chrome")) {
+			WebDriverManager.chromedriver().clearDriverCache().setup();
 			WebDriverManager.chromedriver().setup();
+			
+			//System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
 			// Set Browser to ThreadLocalMap
 			driver.set(new ChromeDriver());
+			
 		} else if (browserName.equalsIgnoreCase("FireFox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver.set(new FirefoxDriver());
